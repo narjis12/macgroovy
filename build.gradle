@@ -11,15 +11,11 @@ version '1.0-SNAPSHOT'
 repositories {
     mavenCentral()
 }
-
-
 configurations {
     cucumberRuntime {
         extendsFrom testImplementation
     }
 }
-
-
 dependencies {
     implementation 'org.codehaus.groovy:groovy-all:3.0.8'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
